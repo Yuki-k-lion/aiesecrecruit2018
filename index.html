@@ -10,8 +10,6 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Paper Kit 2 by Creative Tim</title>
-
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 
@@ -26,9 +24,6 @@
 	
 	<!--Loadfrom2016-->
 	<title>AIESEC in Japan</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="google" content="notranslate" />
 
 	<meta name="twitter:card" content="Summary with Large Image" />
@@ -41,13 +36,14 @@
 
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/lity.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/lity.css">
 	
+	<!--
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	-->
 		<!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -60,16 +56,71 @@
 
 
 <!--    navbar come here          -->
-
-
+<nav class="navbar navbar-expand-md fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.creative-tim.com">Paper Kit 2</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                            <p class="d-lg-none">Twitter</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+                            <i class="fa fa-facebook-square"></i>
+                            <p class="d-lg-none">Facebook</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                            <p class="d-lg-none">Instagram</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/CreativeTimOfficial/paper-kit" target="_blank">
+                            <i class="fa fa-github"></i>
+                            <p class="d-lg-none">GitHub</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="documentation/tutorial-components.html" target="_blank" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Documentation</a>
+                    </li>
+                    <li class="nav-item">
+						<a href="https://www.creative-tim.com/product/paper-kit-2-pro?ref=pk2-free-local" target="_blank" class="btn btn-danger btn-round">Upgrade to Pro</a>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 <!-- end navbar  -->
 
 
 
 <div class="wrapper">
-
-    <!-- content come here     -->
+			<!--RevSlider-->
+		<div class="tp-banner-container" id="Top">
+			<div class="tp-banner topBanner" id="TopBg">
+				<!-- 動画読み込み -->
+				<video autoplay loop muted id="BackMovie">
+					<source src="img/movie.m4v">
+				</video>
+				<div id="MiddleTopText">
+					<h1>You LEAD What</h1>
+					<p>-未来を変える君たちへ-</p>
+				</div>
+			</div>
+		</div>
 
 </div>
 
@@ -99,4 +150,13 @@
 
 <!--  Paper Kit Initialization snd functons -->
 <script src="assets/js/paper-kit.js?v=2.1.0"></script>
+	
+<!--Loadfrom2016JS-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/video.js"></script>
+<script src="assets/js/lity.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
 </html>
