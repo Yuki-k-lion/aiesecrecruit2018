@@ -4254,6 +4254,7 @@ textarea.form-control {
 
   .fog-low {
     margin-bottom: -35px;
+	opacity: 0.7;
   }
 
   .presentation-title {
@@ -5666,7 +5667,7 @@ textarea.form-control {
 }
 
 .page-header {
-  background-color: #B2AFAB;
+  /*background-color: #B2AFAB;*/
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
@@ -5688,7 +5689,7 @@ textarea.form-control {
   top: 0;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: -90;
 }
 .page-header.page-header-small {
   min-height: 65vh !important;
@@ -5909,7 +5910,7 @@ textarea.form-control {
 
 .moving-clouds {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   bottom: 0;
   left: 0;
   width: 250.625em;
