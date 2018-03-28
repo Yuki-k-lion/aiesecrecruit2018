@@ -1,17 +1,38 @@
 /*==========
 Bace
 ===========*/
+
+
+.wrapper{
+	z-index: 100;
+}
 /*==========
 nav
 ===========*/
-.nav_logo {
-  height: 2.5em;
-  line-height: inherit; }
+.nav_logo{
+	height: 2.5em;
+	line-height:inherit;
+	
+}
 
 /*==========
-Top
+top
 ===========*/
-#BackMovie {
+h1{
+	z-index: 20;
+}
+
+
+/*==========
+header
+===========*/
+
+
+/*==========
+Loaded
+===========*/
+
+#BackMovie{
   position: fixed;
   top: 0;
   left: 0;
@@ -20,21 +41,5 @@ Top
   width: auto;
   height: auto;
   background-size: cover;
-  z-index: -100; }
-
-#MiddleTopText {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  padding-bottom: 150px;
-  font-weight: bold; }
-
-#MiddleTopText h1 {
-  color: #ddd;
-  letter-spacing: 3px;
-  font-size: 50px; }
-
-#MiddleTopText p {
-  color: #ddd;
-  font-size: 30px;
-  letter-spacing: 3px; }
+  z-index: -100;
+}
