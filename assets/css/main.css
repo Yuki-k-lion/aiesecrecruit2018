@@ -1,39 +1,33 @@
-/*
-Error: Invalid US-ASCII character "\xE3"
-        on line 8 of /Users/Yuki 1/Desktop/AIESEC/BCXP/RecruitLP/assets/css/main.scss
+/*==========
+Bace
+===========*/
+/*==========
+Top
+===========*/
+#BackMovie {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  z-index: -100; }
 
-3: ===========*\/
-4: 
-5: //AIESEC_Color//
-6: $a-blue:#037ef3;
-7: 
-8: // テキストと背景の色 //
-9: $back:#f1f1f1;
-10: $text:#333333;
-11: 
-12: // よく使うソーシャルサイト //
-13: $facebook:#3B5998;
+#MiddleTopText {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 150px;
+  font-weight: bold; }
 
-Backtrace:
-/Users/Yuki 1/Desktop/AIESEC/BCXP/RecruitLP/assets/css/main.scss:8
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1325:in `rescue in block in find_encoding_error'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1322:in `block in find_encoding_error'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `each_with_index'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:1321:in `find_encoding_error'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/util.rb:930:in `check_sass_encoding'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:436:in `check_encoding!'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:392:in `_to_tree'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/engine.rb:281:in `render'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:400:in `run'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:34:in `load'
-/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:34:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid US-ASCII character \"\xE3\"\A         on line 8 of /Users/Yuki 1/Desktop/AIESEC/BCXP/RecruitLP/assets/css/main.scss\A \A 3: ===========*/\A 4: \A 5: //AIESEC_Color//\A 6: $a-blue:#037ef3;\A 7: \A 8: // テキストと背景の色 //\A 9: $back:#f1f1f1;\A 10: $text:#333333;\A 11: \A 12: // よく使うソーシャルサイト //\A 13: $facebook:#3B5998;"; }
+#MiddleTopText h1 {
+  color: #ddd;
+  letter-spacing: 3px;
+  font-size: 50px; }
+
+#MiddleTopText p {
+  color: #ddd;
+  font-size: 30px;
+  letter-spacing: 3px; }

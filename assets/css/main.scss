@@ -5,11 +5,9 @@ Bace
 //AIESEC_Color//
 $a-blue:#037ef3;
 
-// テキストと背景の色 //
 $back:#f1f1f1;
 $text:#333333;
 
-// よく使うソーシャルサイト //
 $facebook:#3B5998;
 $hatena:#2C6EBD;
 $twitter:#55ACEE;
@@ -17,7 +15,6 @@ $google:#CC3732;
 $poket:#DC3D50;
 $line:#00C300;
 
-// その他のソーシャルサイト //
 $codepen:#000000;
 $github:#171515;
 $tambler:#44546B;
@@ -33,7 +30,6 @@ $youtube:#CD201F;
 $pintalest:#CC2127;
 $flicker:#ff0084;
 
-// サービス系 //
 $bitbacket:#003366;
 $peypal:#336699;
 $wordpress:#21759b;
@@ -41,7 +37,6 @@ $skype:#00AFF0;
 $feedly:#33b051;
 $evernote:#6FB536;
 
-// ソフトウェア系 //
 $sourcetree:#1F5081;
 $windows:#00bcf2;
 $sass:#CF649A;
@@ -65,4 +60,25 @@ Top
   height: auto;
   background-size: cover;
   z-index: -100;
+}
+
+
+#MiddleTopText{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 150px;
+    font-weight: bold;
+}
+
+#MiddleTopText h1{
+    color: #ddd;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+#MiddleTopText p{
+    color: #ddd;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
