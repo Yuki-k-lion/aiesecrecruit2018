@@ -25,6 +25,7 @@ h1{
 .message-textarea{
 	margin-left: 30px;
 	padding-top: 8em;
+	padding-bottom: 8em;
 }
 .top-message p{
 	font-family: YuGo;
