@@ -131,7 +131,7 @@
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
               <h2 class="title">What's AIESEC</h2>
-              <h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
+              <h5 class="description">アイセックは、世界126の国と地域に支部を持ち、国内25の大学支部で活動する世界最大の学生団体です。私たちは「平和で人々の可能性が最大限発揮された社会」の実現を目指し、海外インターンシップの開発、運営そして参加を通じて、社会課題に取り組むことのできる次世代のリーダーを生み出しています。</h5>
               <br>
               <a href="#paper-kit" class="btn btn-danger btn-round">Join us</a> </div>
           </div>
@@ -189,7 +189,8 @@
 <section class="what-we-do" id="WhatWeDo">
   <div class="wrapper">
     <div class="background-move">
-      <h1>TestPAge</h1>
+      <h1>What We Do</h1>
+		<h5>アイセックの主幹事業は海外インターンシップです。アイセックの海外インターンシップは、6週間以上海外に渡航し、現地の社会課題に触れるような活動をしたり、企業で働く経験などを通して、若者にリーダーシップ経験を与えることを目指しています。アイセックのメンバーは、海外インターンシップの内容の企画、運営から参加まで、色々な経験をすることができます。アイセックのインターンシップには「受け入れ事業」と「送り出し事業」の2種類があり、海外の学生に日本の企業、教育機関やNPO法人などでのインターンシップを提供すると共に、日本人の大学生を海外の企業、教育機関やNPO法人でのインターンシップへと送り出しています。</h5>
     </div>
   </div>
 </section>
@@ -280,6 +281,8 @@
 <section class="join-us" id="JoinUs">
   <div class="wrapper">
     <div class="background-opacity100">
+		<h1 class="join-us-title">国内委員会</h1>
+		<p>参加希望委員会を選んでください。</p>
       <ul class="LC-List">
         <li class="LCname">LC_Name</li>
         <li class="LCname">LC_Name</li>
@@ -317,9 +320,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h2 class="text-center">Keep in touch?</h2>
-                            <form class="contact-form">
-                                <div class="row">
+                            <h2 class="text-center">お問い合わせ</h2>
+                           
+								<form action="mail.php" method="post" role="form" class="contact-form">
+									  <div class="row">
                                     <div class="col-md-6">
                                         <label>Name</label>
 										<div class="input-group">
@@ -339,11 +343,64 @@
 										</div>
                                     </div>
                                 </div>
+	
+									<div class="form-group">
+										<input type="text" name="name" class="form-control" placeholder="名前">
+									</div>
+									<div class="form-group">
+										<input type="text" name="highschool" class="form-control" placeholder="出身高校">
+									</div>
+									<div class="form-group">
+										<input type="text" name="university" class="form-control" placeholder="進学予定大学">
+									</div>
+									<div class="form-group">
+										<input type="email" name="mail" class="form-control" placeholder="メール">
+									</div>
+									<div class="form-group">
+										<select class="form-control" id="sel1" name="select">
+											<option value="">参加希望委員会</option>
+											<option value="hd">北海道委員会</option>
+											<option value="sd">仙台委員会</option>
+											<option value="to">東京大学委員会</option>
+											<option value="hi">一橋大学委員会</option>
+											<option value="wa">早稲田大学委員会</option>
+											<option value="ko">慶應義塾大学委員会 </option>
+											<option value="jo">上智大学委員会</option>
+											<option value="sfc">慶應湘南藤沢委員会</option>
+											<option value="mj">明治大学委員会</option>
+											<option value="ag">青山学院大学委員会</option>
+											<option value="sp">立教大学委員会</option>
+											<option value="ch">中央大学委員会</option>
+											<option value="tkb">筑波大学委員会</option>
+											<option value="na">名古屋大学委員会</option>
+											<option value="ni">名古屋市立大学委員会</option>
+											<option value="nz">南山大学委員会</option>
+											<option value="kt">京都大学委員会</option>
+											<option value="do">同志社大学委員会</option>
+											<option value="os">大阪大学委員会</option>
+											<option value="oi">大阪市立大学委員会</option>
+											<option value="sg">滋賀大学委員会</option>
+											<option value="kb">神戸大学委員会</option>
+											<option value="kg">関西学院大学委員会</option>
+											<option value="hu">広島委員会</option>
+											<option value="apu">立命館アジア太平洋大学委員会</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input id="recipient" name="recipient" type="hidden" value="recruit.2016@aiesec.jp" />
+									</div>
+									<div class="form-group">
+										<textarea cols="30" rows="10" name="message" class="form-control" placeholder="質問内容"></textarea>
+									</div>
+									
+							
+                              
                                 <label>Message</label>
                                 <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
                                 <div class="row">
                                     <div class="col-md-4 ml-auto mr-auto">
                                         <button class="btn btn-danger btn-lg btn-fill">Send Message</button>
+										<button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -353,6 +410,79 @@
             </div>
     </div>
   </div>
+		<section id="support" class="doublediagonal">
+			<div class="container">
+				<div class="section-heading NotBack scrollpoint sp-effect3 questionMargin">
+					<h1>質問フォーム</h1>
+					<div class="divider"></div>
+					<p>Let's Entry!</p>
+				</div>
+
+				<div class="row NotBack">
+					<div class="col-md-12 PaddingRight">
+						<div class="row NotBack">
+							<div class="col-sm-8 col-sm-offset-2 scrollpoint sp-effect1">
+
+								<form action="mail.php" method="post" role="form">
+
+									<div class="form-group">
+										<input type="text" name="name" class="form-control" placeholder="名前">
+									</div>
+									<div class="form-group">
+										<input type="text" name="highschool" class="form-control" placeholder="出身高校">
+									</div>
+									<div class="form-group">
+										<input type="text" name="university" class="form-control" placeholder="進学予定大学">
+									</div>
+									<div class="form-group">
+										<input type="email" name="mail" class="form-control" placeholder="メール">
+									</div>
+									<div class="form-group">
+										<select class="form-control" id="sel1" name="select">
+											<option value="">参加希望委員会</option>
+											<option value="hd">北海道委員会</option>
+											<option value="sd">仙台委員会</option>
+											<option value="to">東京大学委員会</option>
+											<option value="hi">一橋大学委員会</option>
+											<option value="wa">早稲田大学委員会</option>
+											<option value="ko">慶應義塾大学委員会 </option>
+											<option value="jo">上智大学委員会</option>
+											<option value="sfc">慶應湘南藤沢委員会</option>
+											<option value="mj">明治大学委員会</option>
+											<option value="ag">青山学院大学委員会</option>
+											<option value="sp">立教大学委員会</option>
+											<option value="ch">中央大学委員会</option>
+											<option value="tkb">筑波大学委員会</option>
+											<option value="na">名古屋大学委員会</option>
+											<option value="ni">名古屋市立大学委員会</option>
+											<option value="nz">南山大学委員会</option>
+											<option value="kt">京都大学委員会</option>
+											<option value="do">同志社大学委員会</option>
+											<option value="os">大阪大学委員会</option>
+											<option value="oi">大阪市立大学委員会</option>
+											<option value="sg">滋賀大学委員会</option>
+											<option value="kb">神戸大学委員会</option>
+											<option value="kg">関西学院大学委員会</option>
+											<option value="hu">広島委員会</option>
+											<option value="apu">立命館アジア太平洋大学委員会</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input id="recipient" name="recipient" type="hidden" value="recruit.2016@aiesec.jp" />
+									</div>
+									<div class="form-group">
+										<textarea cols="30" rows="10" name="message" class="form-control" placeholder="質問内容"></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	
 </section>
 <!--   end modal --> 
 <footer class="footer section-dark">
