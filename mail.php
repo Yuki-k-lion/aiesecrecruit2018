@@ -18,12 +18,12 @@ if (!mb_send_mail($_POST["recipient"], $_POST["name"], $message, "From: " . $_PO
 
 <link rel="shortcut icon" href="favicon.ico">
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/lity.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/lity.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
 <body id="BackPhp">
