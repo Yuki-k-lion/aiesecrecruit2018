@@ -78,7 +78,19 @@ mission
 /*==========
 what we do
 ===========*/
+.what-we-do{
+	padding-top: 5em;
+	padding-bottom:5em;
+	background-color: white;
+}
 
+.background-white{
+	background-color: white;
+}
+
+.what-we-do h1{
+	margin-bottom: 0.5em;
+}
 /*==========
 president
 ===========*/
