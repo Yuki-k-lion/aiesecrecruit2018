@@ -23,7 +23,7 @@
 	mb_language( "Japanese" );
 	mb_internal_encoding( "UTF-8" );
 
-	$message = "新歓LPからの問い合わせ--------\n\n名前：" . $_POST[ "name" ] . "\n出身高校：" . $_POST[ "highschool" ] . "\n進学予定大学：" . $_POST[ "univercity" ] . "\n希望 LC：" . $_POST[ "select" ] . "\n本文：" . $_POST[ "message" ];
+	$message = "新歓LPからの問い合わせ--------\n\n名前：" . $_POST[ "name" ] . "\n出身高校：" . $_POST[ "highschool" ] . "\n進学予定大学：" . $_POST[ "univercity" ] . "\n希望 LC：" . $_POST[ "select" ] . "\n本文：\n" . $_POST[ "message" ];
 
 	if ( !mb_send_mail( "info@aiesec.jp", $_POST[ "name" ], $message, "From: " . $_POST[ "mail" ] ) ) {
 		exit( "error" );
@@ -33,7 +33,7 @@
 
 	<div id="MessageFormBox">
 		<div id="MessageFormCenterAnswer">
-			送信できませんでした。<br>
+			<p>送信されました。</p><br>
 			<p id="MessageSub">※３秒後自動的にTopページに移動します。</p>
 		</div>
 	</div>
