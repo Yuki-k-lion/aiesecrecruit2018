@@ -36,7 +36,7 @@ h1{
 	transform: matrix(0.999,-0.035,0.035,0.999,0,0);
 }
 
-.top-message h2,h3{
+.top-message h2,.top-message h3{
 	font-family: YuGo;
 	color: #ffffff;
 	font-size: 7.5em;
@@ -63,6 +63,17 @@ what aiesec
 /*==========
 mission
 ===========*/
+.our-mission{
+	background-color:rgba(11,10,17,0.7);
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+.pf-english{
+	font-weight:bold;
+}
+.pf-Japanese{
+	margin-bottom: 2em;
+}
 
 /*==========
 what we do
