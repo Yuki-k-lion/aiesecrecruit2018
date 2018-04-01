@@ -1,7 +1,7 @@
 /*==========
 Bace
 ===========*/
-.smartfon-backround .first-img{
+.smart-backround .first-img{
 	position: fixed;
 	z-index: -99;
 	width: auto;
@@ -9,7 +9,7 @@ Bace
 	left: 0px;
 	top: 85px;
 }
-.smartfon-backround .second-img{
+.smart-backround .second-img{
 	position: fixed;
 	z-index: -98;
 	width: 100vm;
@@ -18,7 +18,7 @@ Bace
 	top: 85px;	
 }
 @media(min-width:991px){
-.smartfon-backround{
+.smart-backround{
 	display: none;
 	}}
 
