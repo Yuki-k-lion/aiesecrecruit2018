@@ -1,7 +1,7 @@
 /*==========
 Bace
 ===========*/
-.smart-backround .first-img{
+.smart-backround .first-img {
 	position: fixed;
 	z-index: -99;
 	width: auto;
@@ -9,20 +9,20 @@ Bace
 	left: 0px;
 	top: 85px;
 }
-.smart-backround .second-img{
+.smart-backround .second-img {
 	position: fixed;
 	z-index: -98;
 	width: auto;
 	height: auto;
 	left: -90%;
-	top: 85px;	
+	top: 85px;
 }
-@media(min-width:991px){
-.smart ,.smart-backround{
+
+@media(min-width:991px) {
+.smart, .smart-backround {
 	display: none;
-	}}
-
-
+}
+}
 /*==========
 nav
 ===========*/
@@ -30,10 +30,11 @@ nav
 	height: 2.5em;
 	line-height: inherit;
 }
-@media(max-width:991px){
-	.nav_logo{
-		height: 1.7em;
-	}
+
+@media(max-width:991px) {
+.nav_logo {
+	height: 1.7em;
+}
 }
 /*==========
 top
@@ -44,31 +45,26 @@ h1 {
 .top-message {
 	background-color: #037ef3;
 }
-
 .top-message p {
-	font-family: "Yu Gothic",YuGo,YuGothic,"游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	font-family: "Yu Gothic", YuGo, YuGothic, "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 	color: #ffffff;
 	font-size: 1.2em;
 	font-weight: 700;
-	line-height: 1.111;
-/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
+	line-height: 1.111;/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
 }
 .top-message h2, .top-message h3 {
-	font-family: "Yu Gothic",YuGo,YuGothic,"游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	font-family: "Yu Gothic", YuGo, YuGothic, "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 	color: #ffffff;
 	font-size: 3.8em;
-	font-weight: 700;
-/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
+	font-weight: 700;/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
 }
 .top-message h3 {
 	position: relative;
 }
 .message-textarea {
-	margin-left: 30px;
 	padding-top: 8em;
 	padding-bottom: 8em;
 }
-
 
 @media(min-width: 991px) {
 .top-message p {
@@ -90,6 +86,11 @@ h1 {
 	position: relative;
 	left: 40%;
 	width: 3em;
+}
+.message-textarea {
+	margin-left: 30px;
+	padding-top: 8em;
+	padding-bottom: 8em;
 }
 }
 /*==========
@@ -115,7 +116,6 @@ mission
 .pf-Japanese {
 	margin-bottom: 2em;
 }
-
 /*==========
 what we do
 ===========*/
@@ -133,7 +133,7 @@ what we do
 .description a {
 	margin-top: 1em;
 }
-.info{
+.info {
 	padding-top: 2em;
 }
 /*==========
@@ -142,14 +142,15 @@ president
 .roll-aiesec {
 	margin-top: 1em;
 }
-@media(min-width:991px){
+
+@media(min-width:991px) {
 .president-comment img {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40vw;
 }
-	}
+}
 /*==========
 voice
 ===========*/
@@ -160,16 +161,17 @@ LC List
 .LC-List {
 	list-style-type: none;
 }
-.LC-List .LCname{
+.LC-List .LCname {
 	font-size: 1.8em;
 }
-.LC-List .fa{
+.LC-List .fa {
 	margin-right: 2px;
 }
-@media(min-width:991px){
-	.join-us br{
-		display: none;
-	}
+
+@media(min-width:991px) {
+.join-us br {
+	display: none;
+}
 }
 /*==========
 foum
