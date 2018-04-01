@@ -155,6 +155,17 @@ LC List
 .LC-List {
 	list-style-type: none;
 }
+.LC-List .LCname{
+	font-size: 1.8em;
+}
+.LC-List .fa{
+	margin-right: 2px;
+}
+@media(min-width:991px){
+	.join-us br{
+		display: none;
+	}
+}
 /*==========
 foum
 ===========*/
