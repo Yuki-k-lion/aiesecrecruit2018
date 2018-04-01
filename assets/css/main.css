@@ -121,6 +121,11 @@ LC List
 /*==========
 foum
 ===========*/
+.sub-button{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /*==========
 Loaded
