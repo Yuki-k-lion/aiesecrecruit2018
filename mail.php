@@ -25,16 +25,15 @@
 
 	$message = "名前：" . $_POST[ "name" ] . "\n出身高校：" . $_POST[ "highschool" ] . "\n進学予定大学：" . $_POST[ "univercity" ] . "\n応募するイベント：" . $_POST[ "select" ] . "\n本文：" . $_POST[ "message" ];
 
-	if ( !mb_send_mail( $_POST[ "recipient" ], $_POST[ "name" ], $message, "From: " . $_POST[ "mail" ] ) ) {
+	if ( !mb_send_mail( "info@aiesec.jp", $_POST[ "name" ], $message, "From: " . $_POST[ "mail" ] ) ) {
 		exit( "error" );
 	}
 
 	?>
 
-
 	<div id="MessageFormBox">
 		<div id="MessageFormCenterAnswer">
-			送信完了致しました。<br>
+			送信できませんでした。<br>
 			<p id="MessageSub">※３秒後自動的にTopページに移動します。</p>
 		</div>
 	</div>
