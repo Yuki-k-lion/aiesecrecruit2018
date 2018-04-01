@@ -24,6 +24,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   /*margin: 30px 0 0;*/
 }
+.section-dark h1{
+	color:#eeeeee;
+} 
+.section-dark p{
+	color:#eeeeee;
+}
+.font-color-white{
+	color: #eeeeee;
+}
 
 h1, .h1 {
   font-size: 3.6em;
@@ -1696,7 +1705,8 @@ textarea.form-control {
 }
 
 .section-dark {
-  background-color: #0b1011;
+  background-color: rgba(11,10,17,0.7);
+	
 }
 
 .section-image,
@@ -5063,7 +5073,7 @@ textarea.form-control {
     -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     left: 0;
-    background-color: white;
+    /*background-color: white;*/
   }
   .burger-menu .body .navbar-collapse.collapse {
     height: 100vh !important;
