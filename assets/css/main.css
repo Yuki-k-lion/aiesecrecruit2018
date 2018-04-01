@@ -12,7 +12,7 @@ Bace
 .smart-backround .second-img{
 	position: fixed;
 	z-index: -98;
-	width: 100vm;
+	width: auto;
 	height: auto;
 	left: -90%;
 	top: 85px;	
