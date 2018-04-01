@@ -18,7 +18,7 @@ Bace
 	top: 85px;	
 }
 @media(min-width:991px){
-.smart-backround{
+.smart ,.smart-backround{
 	display: none;
 	}}
 
