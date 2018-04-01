@@ -1,56 +1,92 @@
 /*==========
 Bace
 ===========*/
+.smartfon-backround .first-img{
+	position: fixed;
+	z-index: -99;
+	width: auto;
+	height: 100vw;
+	left: 0px;
+	top: 85px;
+}
+.smartfon-backround .second-img{
+	position: fixed;
+	z-index: -98;
+	width: 100vm;
+	height: auto;
+	left: -90%;
+	top: 85px;	
+}
+@media(min-width:991px){
+.smartfon-backround{
+	display: none;
+	}}
+
 
 /*==========
 nav
 ===========*/
-.nav_logo{
+.nav_logo {
 	height: 2.5em;
-	line-height:inherit;
-	
+	line-height: inherit;
 }
-
 /*==========
 top
 ===========*/
-h1{
+h1 {
 	z-index: 20;
 }
-
-.top-message{
+.top-message {
 	background-color: #037ef3;
 }
 
-.message-textarea{
+.top-message p {
+	font-family: YuGo;
+	color: #ffffff;
+	font-size: 1.6em;
+	font-weight: 700;
+	line-height: 1.111;
+/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
+}
+.top-message h2, .top-message h3 {
+	font-family: YuGo;
+	color: #ffffff;
+	font-size: 4.5em;
+	font-weight: 700;
+/*	transform: matrix(0.999,-0.035,0.035,0.999,0,0);*/
+}
+.top-message h3 {
+	position: relative;
+}
+.message-textarea {
 	margin-left: 30px;
 	padding-top: 8em;
 	padding-bottom: 8em;
 }
-.top-message p{
+
+
+@media(min-width: 991px) {
+.top-message p {
 	font-family: YuGo;
 	color: #ffffff;
 	font-size: 2.25em;
 	font-weight: 700;
 	line-height: 1.111;
-	transform: matrix(0.999,-0.035,0.035,0.999,0,0);
+	transform: matrix(0.999, -0.035, 0.035, 0.999, 0, 0);
 }
-
-.top-message h2,.top-message h3{
+.top-message h2, .top-message h3 {
 	font-family: YuGo;
 	color: #ffffff;
 	font-size: 7.5em;
 	font-weight: 700;
-	transform: matrix(0.999,-0.035,0.035,0.999,0,0);
+	transform: matrix(0.999, -0.035, 0.035, 0.999, 0, 0);
 }
-
-.top-message h3{
+.top-message h3 {
 	position: relative;
 	left: 40%;
 	width: 3em;
 }
-
-
+}
 /*==========
 header
 ===========*/
@@ -63,50 +99,52 @@ what aiesec
 /*==========
 mission
 ===========*/
-.our-mission{
-	background-color:rgba(11,10,17,0.7);
+.our-mission {
+	background-color: rgba(11,10,17,0.7);
 	padding-top: 5em;
 	padding-bottom: 5em;
 }
-.pf-english{
-	font-weight:bold;
+.pf-english {
+	font-weight: bold;
 }
-.pf-Japanese{
+.pf-Japanese {
 	margin-bottom: 2em;
 }
 
 /*==========
 what we do
 ===========*/
-.what-we-do{
+.what-we-do {
 	padding-top: 5em;
-	padding-bottom:5em;
+	padding-bottom: 5em;
 	background-color: white;
 }
-
-.background-white{
+.background-white {
 	background-color: white;
 }
-
-.what-we-do h1{
+.what-we-do h1 {
 	margin-bottom: 0.5em;
 }
-
-.description a{
+.description a {
 	margin-top: 1em;
+}
+.info{
+	padding-top: 2em;
 }
 /*==========
 president
 ===========*/
-.roll-aiesec{
+.roll-aiesec {
 	margin-top: 1em;
 }
-.president-comment img{
+@media(min-width:991px){
+.president-comment img {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width:40vw;
+	width: 40vw;
 }
+	}
 /*==========
 voice
 ===========*/
@@ -117,32 +155,27 @@ LC List
 .LC-List {
 	list-style-type: none;
 }
-
 /*==========
 foum
 ===========*/
-.sub-button{
+.sub-button {
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
-
 /*==========
 Loaded
 ===========*/
 
-#BackMovie{
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background-size: cover;
-  z-index: -100;
+#BackMovie {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	z-index: -100;
 }
 .header-title {
 	z-index: 10;
 }
-
