@@ -68,6 +68,11 @@ h1 {
 	padding-bottom: 8em;
 }
 
+@media(max-width:990px){
+	.message-textarea{
+		width: 100vw;
+	}
+}
 @media(min-width: 991px) {
 .top-message p {
 	font-family: YuGo;
