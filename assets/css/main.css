@@ -101,7 +101,12 @@ president
 .roll-aiesec{
 	margin-top: 1em;
 }
-
+.president-comment img{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:40vwc;
+}
 /*==========
 voice
 ===========*/
