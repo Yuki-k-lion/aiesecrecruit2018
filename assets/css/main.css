@@ -25,6 +25,10 @@ Bace
 	display: none;
 }
 }
+
+.font-color-white p{
+	font-weight: bold;
+}
 /*==========
 nav
 ===========*/
@@ -164,6 +168,7 @@ LC List
 ===========*/
 .LC-List {
 	list-style-type: none;
+	padding-top: 2em;
 }
 .LC-List .LCname {
 	font-size: 1.8em;
