@@ -24,7 +24,11 @@
 	mb_internal_encoding( "UTF-8" );
 
 	$message = "新歓LPからの問い合わせ--------\n\n名前：" . $_POST[ "name" ] . "\n出身高校：" . $_POST[ "highschool" ] . "\n進学予定大学：" . $_POST[ "univercity" ] . "\n希望 LC：" . $_POST[ "select" ] . "\n本文：\n" . $_POST[ "message" ];
-
+	
+	if(!$_POST[ "mail" ] ){
+		exit("error")
+	}
+	
 	if ( !mb_send_mail( "info@aiesec.jp", $_POST[ "name" ], $message, "From: " . $_POST[ "mail" ] ) ) {
 		exit( "error" );
 	}
